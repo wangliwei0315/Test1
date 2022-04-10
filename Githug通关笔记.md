@@ -14,7 +14,7 @@
 git init  
 ```
 
-![微信截图_20210220130451](https://github.com/wangliwei1994/Test1/git-picture/20210220130451.png)
+![微信截图_20210220130451](https://github.com/wangliwei1994/Test1/blob/main/git-picture/20210220130451.png)
 
 #### 心得：
 
