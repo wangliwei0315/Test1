@@ -14,7 +14,7 @@
 git init  
 ```
 
-![微信截图_20210220130451](git-picture\微信截图_20210220130451.png)
+![微信截图_20210220130451](git-picture\20210220130451.png)
 
 #### 心得：
 
@@ -35,7 +35,7 @@ git config --local user.name zhangjingrur
 git config --local user.email 738893647@qq.com
 ```
 
-![2](C:\Users\Administrator\Desktop\111\2.png)
+![2](git-picture\2.png)
 
 #### 心得：
 
@@ -56,7 +56,7 @@ git config --local user.email 738893647@qq.com
 git add README  
 ```
 
-![3](C:\Users\Administrator\Desktop\111\3.png)
+![3](git-picture\3.png)
 
 #### 心得：
 
@@ -76,7 +76,7 @@ git add 指令可将文件添加到暂存区。
 git commit -m "add README"  
 ```
 
-![4](C:\Users\Administrator\Desktop\111\4.png)
+![4](git-picture\4.png)
 
 #### 心得：
 
@@ -96,7 +96,7 @@ git commit 指令用来将本地暂存的修改提交到版本库，-m参数是�
 git clone https://github.com/Gazler/cloneme  
 ```
 
-![5](C:\Users\Administrator\Desktop\111\5.png)
+![5](git-picture\5.png)
 
 #### 心得：
 
@@ -116,7 +116,7 @@ git clone拷贝一个Git仓库到本地，这样本地可以查看该项目，�
 git clone https://github.com/Gazler/cloneme  my_cloned_repo 
 ```
 
-![6](C:\Users\Administrator\Desktop\111\6.png)
+![6](git-picture\6.png)
 
 #### 心得：
 
@@ -136,7 +136,7 @@ git clone https://github.com/Gazler/cloneme  my_cloned_repo
 //由于没有装vim，直接用记事本打开“.gitignore”文件，在文件末尾换行并加上“*.swp”。 
 ```
 
-![7](C:\Users\Administrator\Desktop\111\7.png)
+![7](git-picture\7.png)
 
 #### 心得：
 
@@ -156,7 +156,7 @@ git clone https://github.com/Gazler/cloneme  my_cloned_repo
 //由于没有装vim，直接用记事本打开“.gitignore”文件，在文件末尾换行并加上“*.a”，再换行，在文件末尾加上“!lib.a”。
 ```
 
-![8](C:\Users\Administrator\Desktop\111\8.png)
+![8](git-picture\8.png)
 
 #### 心得：
 
@@ -176,7 +176,7 @@ git clone https://github.com/Gazler/cloneme  my_cloned_repo
 git status  
 ```
 
-![9](C:\Users\Administrator\Desktop\111\9.png)
+![9](git-picture\9.png)
 
 #### 心得：
 
@@ -196,7 +196,7 @@ git status
 git status  
 ```
 
-![10](C:\Users\Administrator\Desktop\111\10.png)
+![10](git-picture\10.png)
 
 #### 心得：
 
@@ -217,7 +217,7 @@ git status
 git add deleteme.rb  
 ```
 
-![11](C:\Users\Administrator\Desktop\111\11.png)
+![11](git-picture\11.png)
 
 #### 心得：
 
@@ -239,7 +239,7 @@ git status
 git rm --cached deleteme.rb    
 ```
 
-![12](C:\Users\Administrator\Desktop\111\12.png)
+![12](git-picture\12.png)
 
 #### 心得：
 
@@ -259,7 +259,7 @@ git rm 删除本地及仓库中的文件；git rm --cached 删除仓库中的文
 git stash   
 ```
 
-![13](C:\Users\Administrator\Desktop\111\13.png)
+![13](git-picture\13.png)
 
 #### 心得：
 
@@ -281,7 +281,7 @@ git stash将本地的修改保存起来，并且将当前代码切换到HEAD提�
 git mv oldfile.txt newfile.txt  
 ```
 
-![14](C:\Users\Administrator\Desktop\111\14.png)
+![14](git-picture\14.png)
 
 #### 心得：
 
@@ -302,7 +302,7 @@ mkdir src
 git mv about.html contact.html index.html src 
 ```
 
-![15](C:\Users\Administrator\Desktop\111\15.png)
+![15](git-picture\15.png)
 
 #### 心得：
 
@@ -322,7 +322,7 @@ git mv +文件名+ 新文件路径，可将指定的文件移动到指定的文�
 git log 
 ```
 
-![16](C:\Users\Administrator\Desktop\111\16.png)
+![16](git-picture\16.png)
 
 #### 心得：
 
@@ -342,7 +342,7 @@ git log可查看提交历史，显示commit hash、author、date等信息。
 git tag "new_tag"
 ```
 
-![17](C:\Users\Administrator\Desktop\111\17.png)
+![17](git-picture\17.png)
 
 #### 心得：
 
@@ -362,7 +362,7 @@ git tag 打本地标签，可以标记当前提交的状态。
 git push --tags origin master
 ```
 
-![18](C:\Users\Administrator\Desktop\111\18.png)
+![18](git-picture\18.png)
 
 #### 心得：
 
@@ -383,7 +383,7 @@ git add forgotten_file.rb
 git commit --amend -m "修改提交"
 ```
 
-![19](C:\Users\Administrator\Desktop\111\19.png)
+![19](git-picture\19.png)
 
 #### 心得：
 
@@ -403,7 +403,7 @@ git commit -m 提交后发现有问题，需要撤销上次的提交，可以使
 git commit --date=02.21.2021T09:00:00 -m "指定提交时间为2021年2月21日9点整"
 ```
 
-![20-1](C:\Users\Administrator\Desktop\111\20-1.png)
+![20-1](git-picture\20-1.png)
 
 #### 心得：
 
@@ -423,7 +423,7 @@ git commit --date=日期 可以指定提交的（未来）时间。
 git reset HEAD to_commit_second.rb  
 ```
 
-![21](C:\Users\Administrator\Desktop\111\21.png)
+![21](git-picture\21.png)
 
 #### 心得：
 
@@ -443,7 +443,7 @@ git reset HEAD 是将暂存区和HEAD的提交保持一致；git reset  -- hard 
 git reset --soft HEAD~1 
 ```
 
-![22](C:\Users\Administrator\Desktop\111\22.png)
+![22](git-picture\22.png)
 
 #### 心得：
 
@@ -469,7 +469,7 @@ git reset -- hard彻底回退到某个版本，本地的代码也会变为上一
 git checkout config.rb  
 ```
 
-![23](C:\Users\Administrator\Desktop\111\23.png)
+![23](git-picture\23.png)
 
 #### 心得：
 
@@ -489,7 +489,7 @@ git checkout 单个文件 可将该文件从暂存区恢复到工作区。
 git remote -v   
 ```
 
-![24](C:\Users\Administrator\Desktop\111\24.png)
+![24](git-picture\24.png)
 
 #### 心得：
 
@@ -510,7 +510,7 @@ git remote -v
 https://github.com/githug/not_a_repo
 ```
 
-![25](C:\Users\Administrator\Desktop\111\25.png)
+![25](git-picture\25.png)
 
 #### 心得：
 
@@ -530,7 +530,7 @@ githug reset可回退到上次游戏结果，重新开始。
 git pull origin master  
 ```
 
-![26](C:\Users\Administrator\Desktop\111\26.png)
+![26](git-picture\26.png)
 
 #### 心得：
 
@@ -550,7 +550,7 @@ git pull将远程仓库的内容拉到本地仓库。
 git remote add origin https://github.com/githug/githug   
 ```
 
-![27](C:\Users\Administrator\Desktop\111\27.png)
+![27](git-picture\27.png)
 
 #### 心得：
 
@@ -571,7 +571,7 @@ git rebase origin/master
 git push origin master 
 ```
 
-![28](C:\Users\Administrator\Desktop\111\28.png)
+![28](git-picture\28.png)
 
 #### 心得：
 
@@ -591,7 +591,7 @@ git rebase master 将master最新的分支同步到本地，这个过程可能�
 git diff  
 ```
 
-![29](C:\Users\Administrator\Desktop\111\29.png)
+![29](git-picture\29.png)
 
 #### 心得：
 
@@ -612,7 +612,7 @@ git blame config.rb
 git blame config.rb | grep "password"
 ```
 
-![30](C:\Users\Administrator\Desktop\111\30.png)
+![30](git-picture\30.png)
 
 #### 心得：
 
@@ -632,7 +632,7 @@ git blame查看某个文件的每一行内容由谁所写。
 git branch test_code  
 ```
 
-![31](C:\Users\Administrator\Desktop\111\31.png)
+![31](git-picture\31.png)
 
 #### 心得：
 
@@ -652,9 +652,9 @@ git branch 分支名： 创建一个分支。
 git checkout -b my_branch  
 ```
 
-![32-1](C:\Users\Administrator\Desktop\111\32-1.png)
+![32-1](git-picture\32-1.png)
 
-![32-2](C:\Users\Administrator\Desktop\111\32-2.png)
+![32-2](git-picture\32-2.png)
 
 #### 心得：
 
@@ -675,7 +675,7 @@ git tag
 git checkout v1.2  
 ```
 
-![33](C:\Users\Administrator\Desktop\111\33.png)
+![33](git-picture\33.png)
 
 #### 心得：
 
@@ -695,7 +695,7 @@ git tag 查看本地标签， git checkout tag_name检出此tag对应的代码�
 git checkout tags/v1.2
 ```
 
-![34](C:\Users\Administrator\Desktop\111\34.png)
+![34](git-picture\34.png)
 
 ## 35.第35关
 
@@ -711,7 +711,7 @@ git checkout tags/v1.2
 git branch test_branch HEAD~1  
 ```
 
-![35](C:\Users\Administrator\Desktop\111\35.png)
+![35](git-picture\35.png)
 
 #### 心得：
 
@@ -731,7 +731,7 @@ git branch 分支名  HEAD~1 :在前次提交前创建一个分支。
 git branch -d delete_me  
 ```
 
-![36](C:\Users\Administrator\Desktop\111\36.png)
+![36](git-picture\36.png)
 
 #### 心得：
 
@@ -751,7 +751,7 @@ git branch -d 分支名:删除某个分支。
 git push origin test_branch:test_branch
 ```
 
-![37](C:\Users\Administrator\Desktop\111\37.png)
+![37](git-picture\37.png)
 
 #### 心得：
 
@@ -773,7 +773,7 @@ git push origin 分支：分支  指令可将本地的分支Push到远程仓库�
 git merge feature  
 ```
 
-![38](C:\Users\Administrator\Desktop\111\38.png)
+![38](git-picture\38.png)
 
 #### 心得：
 
@@ -793,7 +793,7 @@ git merge 分支名：合并指定分支到当前分支master。
 git fetch origin  
 ```
 
-![39](C:\Users\Administrator\Desktop\111\39.png)
+![39](git-picture\39.png)
 
 #### 心得：
 
@@ -813,7 +813,7 @@ git fetch origin: 获取远程仓库的内容，但不合并到本地仓库。
 git rebase master feature 
 ```
 
-![40](C:\Users\Administrator\Desktop\111\40.png)
+![40](git-picture\40.png)
 
 ## 41.第41关
 
@@ -829,7 +829,7 @@ git rebase master feature
 git rebase --onto master wrong_branch
 ```
 
-![41](C:\Users\Administrator\Desktop\111\41.png)
+![41](git-picture\41.png)
 
 #### 心得：
 
@@ -841,7 +841,7 @@ git merge：用于从指定的分支（节点）合并到当前分支的操作�
 
 3. 常用的合并分支命令格式：git merge 源分支 [目的分支，默认master]。
 
-   ![41-1](C:\Users\Administrator\Desktop\111\41-1.png)
+   ![41-1](git-picture\41-1.png)
 
 git rebase：用于合并目标分支内容到当前分支。
 
@@ -849,7 +849,7 @@ git rebase：用于合并目标分支内容到当前分支。
 
 2. 如果你要将其他分支的提交节点合并到当前分支，git rebase和git merge都可以达到目的。
 
-   ![41-2](C:\Users\Administrator\Desktop\111\41-2.png)
+   ![41-2](git-picture\41-2.png)
 
    ## 42.第42关
 
@@ -865,7 +865,7 @@ git rebase：用于合并目标分支内容到当前分支。
    git repack -d 
    ```
 
-####     ![42](C:\Users\Administrator\Desktop\111\42.png)
+####     ![42](git-picture\42.png)
 
 ####      心得：
 
@@ -886,9 +886,9 @@ git log --all
 git cherry-pick ca32a6dac7b6f97975edbe19a4296c2ee7682f68  
 ```
 
-![43-1](C:\Users\Administrator\Desktop\111\43-1.png)
+![43-1](git-picture\43-1.png)
 
-![43-2](C:\Users\Administrator\Desktop\111\43-2.png)
+![43-2](git-picture\43-2.png)
 
 ####  心得：
 
@@ -908,7 +908,7 @@ git cherry-pick ca32a6dac7b6f97975edbe19a4296c2ee7682f68
 git grep TODO  
 ```
 
-![44](C:\Users\Administrator\Desktop\111\44.png)
+![44](git-picture\44.png)
 
 #### 心得：
 
@@ -933,9 +933,9 @@ git grep TODO
 6、git rebase --continue
 ```
 
-![45-1](C:\Users\Administrator\Desktop\111\45-1.png)
+![45-1](git-picture\45-1.png)
 
-![45-2](C:\Users\Administrator\Desktop\111\45-2.png)
+![45-2](git-picture\45-2.png)
 
 #### 心得：
 
@@ -957,11 +957,11 @@ git grep TODO
 3、进入VIM编辑界面，将下面3个pick改为squash
 ```
 
-![46-3](C:\Users\Administrator\Desktop\111\46-3.png)
+![46-3](git-picture\46-3.png)
 
-![46-4](C:\Users\Administrator\Desktop\111\46-4.png)![46-1](C:\Users\Administrator\Desktop\111\46-1.png)
+![46-4](git-picture\46-4.png)![46-1](git-picture\46-1.png)
 
-![46-2](C:\Users\Administrator\Desktop\111\46-2.png)
+![46-2](git-picture\46-2.png)
 
 #### 心得：
 
@@ -982,7 +982,7 @@ git merge --squash long-feature-branch
 git commit -m "merge squash"  
 ```
 
-![47](C:\Users\Administrator\Desktop\111\47.png)
+![47](git-picture\47.png)
 
 #### 心得：
 
@@ -1005,9 +1005,9 @@ git merge --squash 是用来把一些不必要commit进行压缩，比如说，�
 4、git log
 ```
 
-![48-1](C:\Users\Administrator\Desktop\111\48-1.png)
+![48-1](git-picture\48-1.png)
 
-![48-2](C:\Users\Administrator\Desktop\111\48-2.png)
+![48-2](git-picture\48-2.png)
 
 ## 49.第49关
 
@@ -1027,9 +1027,9 @@ git bisect bad 12628f4
 git bisect run make test
 ```
 
-![49-1](C:\Users\Administrator\Desktop\111\49-1.png)
+![49-1](git-picture\49-1.png)
 
-![49-2](C:\Users\Administrator\Desktop\111\49-2.png)
+![49-2](git-picture\49-2.png)
 
 #### 心得：
 
@@ -1056,11 +1056,11 @@ git diff
 git status
 ```
 
-![50](C:\Users\Administrator\Desktop\111\50.png)
+![50](git-picture\50.png)
 
-![50-3](C:\Users\Administrator\Desktop\111\50-3.png)
+![50-3](git-picture\50-3.png)
 
-![50-2](C:\Users\Administrator\Desktop\111\50-2.png)
+![50-2](git-picture\50-2.png)
 
 
 
@@ -1079,7 +1079,7 @@ git reflog
 git checkout solve_world_hunger 
 ```
 
-![51](C:\Users\Administrator\Desktop\111\51.png)
+![51](git-picture\51.png)
 
 #### 心得：
 
@@ -1101,9 +1101,9 @@ git revert  59f058e
 git log
 ```
 
-![52-1](C:\Users\Administrator\Desktop\111\52-1.png)
+![52-1](git-picture\52-1.png)
 
-![52-2](C:\Users\Administrator\Desktop\111\52-2.png)
+![52-2](git-picture\52-2.png)
 
 #### 心得：
 
@@ -1126,7 +1126,7 @@ git reset --hard908efd9
 git reflog 
 ```
 
-![53](C:\Users\Administrator\Desktop\111\53.png)
+![53](git-picture\53.png)
 
 #### 心得：
 
@@ -1149,7 +1149,7 @@ git add poem.txt
 git commit -m "add poem.txt"  
 ```
 
-![54](C:\Users\Administrator\Desktop\111\54.png)
+![54](git-picture\54.png)
 
 #### 心得：
 
@@ -1169,7 +1169,7 @@ git commit -m "add poem.txt"
 git submodule add https://github.com/jackmaney/githug-include-me githug-include-me
 ```
 
-![55](C:\Users\Administrator\Desktop\111\55.png)
+![55](git-picture\55.png)
 
 #### 心得：
 
@@ -1183,7 +1183,7 @@ git submodule add https://github.com/jackmaney/githug-include-me githug-include-
 这是最后一关，目标是让你在 Github 上提交一个 pull request 贡献。设计本关的目的就是鼓励你向 Githug 提交贡献，而不是测试你使用 pull request 的技能。贡献包括新的关卡、修复BUG和改善文档
 ```
 
-#### ![56](C:\Users\Administrator\Desktop\111\56.png)
+#### ![56](git-picture\56.png)
 
 
 
